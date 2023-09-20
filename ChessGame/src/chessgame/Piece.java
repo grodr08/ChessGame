@@ -7,13 +7,15 @@ public class Piece {
     int yp;
     boolean isWhite;
     LinkedList<Piece> ps;
+    String name;
 
-    public Piece(int xp, int yp, boolean isWhite, LinkedList<Piece> ps) {
+    public Piece(int xp, int yp, boolean isWhite, LinkedList<Piece> ps, String name) {
         this.xp = xp;
         this.yp = yp;
         this.isWhite = isWhite;
         this.ps = ps;
         ps.add(this);
+        this.name = name;
     }
 
     public void move(int xp, int yp) {

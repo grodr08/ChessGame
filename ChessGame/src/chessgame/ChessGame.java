@@ -2,9 +2,12 @@ package chessgame;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.LinkedList;
 
 public class ChessGame {
     public static void main(String[] args) {
+
+        LinkedList<Piece> ps = new LinkedList<>();
 
         JFrame frame = new JFrame();
         frame.setBounds(10, 10, 528, 551);
