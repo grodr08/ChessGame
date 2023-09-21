@@ -6,10 +6,10 @@ public class Piece {
     int xp;
     int yp;
     boolean isWhite;
-    LinkedList<Piece> ps;
     String name;
+    LinkedList<Piece> ps;
 
-    public Piece(int xp, int yp, boolean isWhite, LinkedList<Piece> ps, String name) {
+    public Piece(int xp, int yp, boolean isWhite, String name,LinkedList<Piece> ps) {
         this.xp = xp;
         this.yp = yp;
         this.isWhite = isWhite;
