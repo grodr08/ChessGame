@@ -1,4 +1,6 @@
 package com.chess.squares;
 
-public class SquareColor {
+public enum SquareColor {
+    LIGHT,
+    DARK
 }
